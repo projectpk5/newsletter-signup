@@ -9,6 +9,7 @@ const validator = () => {
         textArea.style.display = "none";
         imageArea.style.display = "none";
         successMessage.style.display = "block";
+        document.getElementById('successMessage1').innerHTML = `A confirmation email has been sent to ${emailField}. Please open it and click the button inside to confirm your subscription`
     } else {
         document.getElementById('emailMessages1').innerHTML = "valid email required.";
         document.getElementById('inputField').value.style.color = "hsl(4, 100%, 67%)";
