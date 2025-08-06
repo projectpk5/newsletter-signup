@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    background-color: hsl(235, 18%, 26%);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    background-color: white;
+    height: 400px;
+    width: 600px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.success {
+    display: none;
+    margin: 20px;
+    padding: 20px;
+    width: 100%;
+}
+
+.textarea {
+    margin: 25px;
+    width: 100%;
+    padding: 10px;
+}
+
+.image ,img {
+    height: 100%;
+}
+button {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 12px;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-image: url(./assets/images/icon-success.svg);
+    background-size: 15px;
+    font-size: 12px;
+    line-height: 200%;
+
+    padding-left: 20px;
+    background-repeat: no-repeat;
+}
+
+p,label,li {
+    font-size: 12px;
+}
+
+.emailMessages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#emailMessages1{
+    color: hsl(4, 100%, 67%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 700px;
+        width: 300px;
+    }
+    .textarea {
+        width: 300px;
+        margin: 25px;
+    }
+    img {
+        width: 100%;
+        height: 300px;
+        object-fit: fill;
+    }
+    .success > img {
+        height: 20%;
+        width: 20%;
+    }
+    
+}
