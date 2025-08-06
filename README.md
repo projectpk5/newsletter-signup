@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/projectpk5/newsletter-signup](https://github.com/projectpk5/newsletter-signup)
-- Live Site URL: [https://projectpk5.github.io/newsletter-signup/](https://your-live-site-url.com)
+- Live Site URL: [https://projectpk5.github.io/newsletter-signup/](https://projectpk5.github.io/newsletter-signup/)
 
 ## My process
 
